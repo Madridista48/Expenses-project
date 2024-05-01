@@ -2,7 +2,6 @@ import PropTypes from "prop-types";
 import css from './ExpenseItem.module.css'
 
 const ExpenseItem = ({date, title, price, id}) => {
-    console.log('work')
     return (
         <div key={id} className={css.expenseItemContainer}>
             <div className={css.expenseItemDate}>{date.toISOString()}</div>

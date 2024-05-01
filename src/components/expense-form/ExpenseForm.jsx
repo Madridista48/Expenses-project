@@ -1,9 +1,30 @@
+import FormInput from "../UI/form-input/FormInput.jsx";
+import Button from "../UI/button/Button.jsx";
 
 const ExpenseForm = () => {
     return (
-        <div>
-
-        </div>
+        <form>
+            <FormInput
+                inputType={'text'}
+                label={'Заголовок'}
+                placeholder={'Напишите расход'}
+                id={'f1'}
+            />
+            <FormInput
+                inputType={'number'}
+                label={'Цена'}
+                placeholder={'Напишите цену'}
+                id={'f2'}
+            />
+            <FormInput
+                inputType={'date'}
+                label={'Дата'}
+                placeholder={'MM.DD.YY'}
+                id={'f1'}
+            />
+            <Button text={'Добавить'}/>
+            <Button text={'Отменить'}/>
+        </form>
     );
 };
 
