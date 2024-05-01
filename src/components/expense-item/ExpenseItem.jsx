@@ -4,9 +4,11 @@ import css from './ExpenseItem.module.css'
 const ExpenseItem = ({date, title, price, id}) => {
     return (
         <div key={id} className={css.expenseItemContainer}>
-            <div className={css.expenseItemDate}>{date.toISOString()}</div>
-            <div className={css.expenseItemTitle}>{title}</div>
-            <div className={css.expenseItemPrice}>{price}</div>
+            <div className={css.expenseDateTitleContainer}>
+                <div className={css.expenseItemDate}>{date.toISOString()}</div>
+                <div className={css.expenseItemTitle}>{title}</div>
+            </div>
+            <div className={css.expenseItemPrice}>$ {price}</div>
         </div>
     );
 };

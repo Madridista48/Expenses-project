@@ -1,0 +1,10 @@
+.ul{
+    display: flex;
+    flex-direction: column;
+    width: 780px;
+    height: 632px;
+    top: 549px;
+    left: 330px;
+    gap: 0;
+    border-radius: 12px 0 0 0;
+}

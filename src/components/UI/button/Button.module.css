@@ -7,6 +7,8 @@
     border: none;
     border-radius: 8px;
     cursor: pointer;
+    float: right;
+    /*margin: 0 auto;*/
 }
 .button:hover {
     background-color: #600a87;

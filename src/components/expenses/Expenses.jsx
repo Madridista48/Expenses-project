@@ -1,10 +1,11 @@
 import PropTypes from "prop-types";
 import ExpenseItem from "../expense-item/ExpenseItem.jsx";
+import css from './Expenses.module.css'
 
 
 const Expenses = ({ data }) => {
     return (
-        <ul>
+        <ul className={css.ul}>
             {data.map(({date,id,title,price})=>(
                 <ExpenseItem
                     key={id}

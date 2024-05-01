@@ -1,0 +1,18 @@
+.form{
+    background: #AD9BE9;
+    padding: 50px;
+    width: 780px;
+    height: 287px;
+    top: 236px;
+    left: 330px;
+    gap: 0;
+    border-radius: 12px;
+
+}
+.formContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}

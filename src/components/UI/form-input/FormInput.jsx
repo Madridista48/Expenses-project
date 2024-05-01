@@ -3,7 +3,7 @@ import css from './FormInput.module.css'
 
 const FormInput = ({label, inputType, placeholder, id}) => {
     return (
-        <div>
+        <div className={css.formContainer}>
             <label htmlFor={id} className={css.formLabel}>{label}</label>
             <input id={id} type={inputType} className={css.formInput} placeholder={placeholder || '...'}/>
         </div>
