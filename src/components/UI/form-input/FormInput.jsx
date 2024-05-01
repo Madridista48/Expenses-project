@@ -5,7 +5,7 @@ const FormInput = ({label, inputType, placeholder, id}) => {
     return (
         <div>
             <label htmlFor={id} className={css.formLabel}>{label}</label>
-            <input id={id} type={inputType} className={css.formInput} placeholder={placeholder}/>
+            <input id={id} type={inputType} className={css.formInput} placeholder={placeholder || '...'}/>
         </div>
     );
 };

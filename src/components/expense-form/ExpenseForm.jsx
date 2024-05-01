@@ -20,7 +20,7 @@ const ExpenseForm = () => {
                 inputType={'date'}
                 label={'Дата'}
                 placeholder={'MM.DD.YY'}
-                id={'f1'}
+                id={'f3'}
             />
             <Button text={'Добавить'}/>
             <Button text={'Отменить'}/>
